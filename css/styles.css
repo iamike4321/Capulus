@@ -1,24 +1,71 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+/*Nav bar Styling code begin*/
 #navAnchor {
 margin-top: 0;
 padding-top: 0;
 }
-
 .navbar-inverse {
   background-color: white;
   border: 1px solid black;
-  border-left:0px;
-  border-right:0px;
+  border-left: 0px;
+  border-right: 0px;
 }
-
 #navLogo {
-  width:5em;
-  height:5em;
-
+  width: 50%;
+  height: 130%;
 }
-
-
-.mission {
-  background-color: #eee;
-  height:15%;
-  font-size:1.3em;
+/*End of the Nav bar Code */
+/*Jumbotron Code begining */
+.jumbotron {
+  background:/*#1b222a*/ url(../images/jtBg.jpeg) no-repeat top center;
+    color:#fff;
+    height:500px;
+    overflow:none;
 }
+/*End of Jumbotron Code */
+/*Mission code */
+.mission{
+  background-image: url(../images/missionBg.jpeg);
+  border-radius: 22px;
+  font-size: 1.5em;
+  color: darkgrey;
+}
+/*End of Mission Code*/
+/*Start of general code*/
+.general li{
+list-style: none;
+}
+/*start of about code code*/
+.abtUs{
+  font-size: 1.3em;
+}
+.rPic{
+  height:40%;
+  width:100%;
+}
+.pPic{
+  height: 75px;
+  width: 75px;
+}
+/*end of about page code*/
+/*End of general code*/
+/*Start of Footer code */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+}
+footer li {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+}
+footer a {
+    color: #fff;
+}
+footer p {
+    float: right;
+}
+/*End of Footer Code*/
