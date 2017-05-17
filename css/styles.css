@@ -58,6 +58,18 @@ list-style: none;
   width: 75px;
 }
 /*end of about page code*/
+/*start of menu code*/
+.menu {
+  border: 1px solid black;
+  padding:20px;
+}
+.cImg{
+  width: 75px;
+  height: 100px;
+border: 2px solid black;
+}
+
+/*end of menu code*/
 /*Start of Footer code */
 footer {
     background: #333;
