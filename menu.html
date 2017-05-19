@@ -13,7 +13,7 @@
 
   <body onload="counter()">
 
-    <!-- fixed navbar -->
+    <!--  navbar static, not fixed to top. -->
     <nav class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-header">
@@ -36,6 +36,7 @@
       </div>
     </nav>
 
+<!-- little counter that automatically adds to itself with a setinterval command -->
     <div class="container counter">
       <div class="row">
         <div class="col-xs-12 col-sm-4 offset-sm-8">
@@ -45,10 +46,11 @@
       </div>
     </div>
 
-    <!-- span tag to display image once an img is clicked on  -->
+    <!-- span tag to display image once an img is clicked on, contains a timeout  -->
     <span id="ogImg" onclick="setTimeout(removeImage, 500)"></span>
 
 
+<!-- container holding menu items and if a picture were to be clicked, then the image would enlargen where the span tag is -->
     <div class="container menu">
       <div class="row">
         <div class="col-xs-12">
@@ -87,7 +89,6 @@
                 <h4 class="cH4">coffee #6</h4>
 
             </div>
-
           </div>
         </div>
       </div>
