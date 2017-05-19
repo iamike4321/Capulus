@@ -1,109 +1,147 @@
-/*Index Page Code*/
+/*========================================
+                  INDEX PAGE
+=========================================*/
 body {
-  background-color: rgb(230, 230, 230);
-}
-/*Nav bar Styling code begin*/
-.navbar-inverse {
-  border: 1px solid black;
-  background-color: white;
+    background-color: rgb(230, 230, 230);
 }
 
-#navbar ul li a:hover{
-  color: rgb(165, 0, 0);
+/*======================================
+                  NAVBAR CODE
+=======================================*/
+
+/*Nav bar Styling code begin*/
+.navbar-inverse {
+    border: 1px solid black;
+    background-color: white;
 }
+
+#navbar ul li a:hover {
+    color: rgb(165, 0, 0);
+}
+
 .active:hover {
-  color: white;
+    color: white;
 }
 
 #navLogo {
-  width: 50%;
-  height: 180%;
+    width: 50%;
+    height: 180%;
 }
 /*End of the Nav bar Code */
+
+/*======================================
+                  JUMBOTRONS CODE
+=======================================*/
+
 /*Jumbotron Code begining */
 .jumbotron {
-	overflow:none;
-
-	height:500px;
-
-	color:#fff;
-  background:/*#1b222a*/ url(../images/jtBg.jpeg) no-repeat top center;
+    overflow: none;
+    height: 500px;
+    color: #fff;
+    background: /*#1b222a*/
+    url(../images/jtBg.jpeg) no-repeat top center;
 }
 /*End of Jumbotron Code */
-/*Mission code */
-.mission{
-  color: darkgrey;
-  border-radius: 8px;
-  background-image: url(../images/missionBg.jpeg);
 
-  font-size: 1.5em;
-  /*width: 1144px;*/
+
+/*Mission code */
+.mission {
+    color: white;
+    border-radius: 8px;
+    background-image: url(../images/missionBg.jpg);
+    font-size: 1.6em;
 }
 /*End of Mission Code*/
-/*Start of general code*/
+
+
+/*======================================
+                  FAQ CODE
+=======================================*/
 .general ul {
-list-style: none;
+    list-style: none;
 }
+
 .general ul li a:hover {
-  text-decoration: none;
-
-  color:   rgb(165, 0, 0);
+    text-decoration: none;
+    color: rgb(165, 0, 0);
 }
+/*End of general code */
 /*End of index code*/
-/*start of about page code*/
 
-.rPic{
-  width:100%;
-  height:40%;
+/*======================================
+                  ABOUT PAGE
+=======================================*/
 
+.rPic {
+    width: 100%;
+    height: 40%;
 }
-.pPic{
-  width: 75px;
-  height: 75px;
 
-  text-align: left;
+.pPic {
+    width: 75px;
+    height: 75px;
+    text-align: left;
 }
-.aboutUsText{
-padding-top: 60px;
 
-  text-align: left;
-
-  border-right: double;
-  border-right-color: darkgrey;
-
-  font-size: 1.3em;
+.aboutUsText {
+    padding-top: 60px;
+    text-align: left;
+    border-right: solid;
+    border-right-color: darkgrey;
+    font-size: 1.3em;
 }
+
 .row1 {
-padding-top: 80px;
-padding-left: 60px;
+    padding-top: 80px;
+    padding-left: 60px;
 }
+
+
 /*end of about page code*/
 
+/*======================================
+                  MENU PAGE
+=======================================*/
+.counter{
+  padding-bottom: 20px;
+}
+.menu {
+  border: 1px solid black;
+  padding:20px;
+}
+.cImg{
+  width: 75px;
+  height: 100px;
+border: 2px solid black;
+}
 
-/*Start of Footer code */
+/*end of menu code*/
+/*======================================
+                  FOOTER
+=======================================*/
+
 footer {
-	padding: 30px 0 20px 0;
-
-	color: #fff;
-	background: #333;
+    padding: 30px 0 20px 0;
+    background: white;
 }
 
 footer li {
-	float: left;
-
-	padding: 0px 10px 0px 10px;
-
-	list-style: none;
+    float: left;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
 }
+
 footer a {
-	color: #fff;
+    color: grey;
 }
-footer li a:hover {
-  text-decoration: none;
 
-  color: rgb(165, 0, 0);
+footer li a:hover {
+    text-decoration: none;
+    color: rgb(165, 0, 0);
 }
+
 footer p {
-	float: right;
+    float: right;
+    color: grey;
 }
 /*End of Footer Code*/
