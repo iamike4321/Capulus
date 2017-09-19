@@ -86,6 +86,7 @@ function negativeNum() {
 }
 
 
+
 //form validation for contact page
 function validateForm(obj) {
   //prevents default behavior for the object (submit event)
